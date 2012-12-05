@@ -1,0 +1,13 @@
+classname: br/com/globalcode/android/MyTabListener
+visitAnnotation*Lscala/reflect/ScalaSignature;*true
+visitAsClass_interface*android/app/ActionBar$TabListener
+visitAsClass_signature*<_:Ljava/lang/Object;>Ljava/lang/Object;Landroid/app/ActionBar$TabListener;
+visitAsClass_superName*java/lang/Object
+visitFieldInsn*178*scala/Predef$*MODULE$*Lscala/Predef$;
+visitFieldInsn_fieldtype*Landroid/app/Activity;
+visitFieldInsn_fieldtype*Landroid/app/Fragment;
+visitFieldInsn_fieldtype*Ljava/lang/Class;
+visitFieldInsn_fieldtype*Ljava/lang/String;
+visitFieldInsn_fieldtype*Lscala/Predef$;
+visitMethodInsn*182*scala/Predef$*println*(Ljava/lang/Object;)V
+visitTypeInsn*187*android/app/Fragment

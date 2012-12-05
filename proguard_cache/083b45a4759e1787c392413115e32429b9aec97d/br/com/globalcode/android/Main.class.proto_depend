@@ -1,0 +1,7 @@
+classname: br/com/globalcode/android/Main
+visitAnnotation*Lscala/reflect/ScalaSignature;*true
+visitAsClass_signature*
+visitAsClass_superName*android/app/Activity
+visitFieldInsn_fieldtype*I
+visitFieldInsn_fieldtype*Landroid/app/ActionBar;
+visitTypeInsn*187*br/com/globalcode/android/MyTabListener

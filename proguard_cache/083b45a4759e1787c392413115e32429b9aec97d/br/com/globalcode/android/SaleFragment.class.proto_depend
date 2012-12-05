@@ -1,0 +1,5 @@
+classname: br/com/globalcode/android/SaleFragment
+visitAnnotation*Lscala/reflect/ScalaSignature;*true
+visitAsClass_signature*
+visitAsClass_superName*android/app/Fragment
+visitFieldInsn_fieldtype*I
