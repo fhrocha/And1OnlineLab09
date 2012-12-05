@@ -20,11 +20,11 @@ public class Main extends Activity {
 		actionBar = getActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		
-		Tab tab = actionBar.newTab().setText("Venda").setTabListener(new MyTabListener<VendaFragment>(this, "venda", VendaFragment.class));
+		Tab tab = actionBar.newTab().setText("Venda").setTabListener(new MyTabListener<SaleFragment>(this, "venda", SaleFragment.class));
 		actionBar.addTab(tab);
-		tab = actionBar.newTab().setText("Locação").setTabListener(new MyTabListener<LocacaoFragment>(this, "locacao", LocacaoFragment.class));
+		tab = actionBar.newTab().setText("Locação").setTabListener(new MyTabListener<RentFragment>(this, "locacao", RentFragment.class));
 		actionBar.addTab(tab);
-		tab = actionBar.newTab().setText("Clientes").setTabListener(new MyTabListener<ClienteFragment>(this, "cliente", ClienteFragment.class));
+		tab = actionBar.newTab().setText("Clientes").setTabListener(new MyTabListener<ClientFragment>(this, "cliente", ClientFragment.class));
 		actionBar.addTab(tab);
 		
 		if(savedInstanceState != null) {

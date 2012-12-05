@@ -14,6 +14,7 @@ public class MyTabListener<T extends Fragment> implements
 	private final Class<T> mClass;
 
 	public MyTabListener(Activity activity, String tag, Class<T> clz) {
+		
 		mActivity = activity;
 		mTag = tag;
 		mClass = clz;
@@ -29,6 +30,7 @@ public class MyTabListener<T extends Fragment> implements
 			mFragment = Fragment.instantiate(mActivity, mClass.getName());
 			ft.add(android.R.id.content, mFragment, mTag);
 		} else {
+			
 			ft.attach(mFragment);
 		}
 	}
@@ -40,6 +42,7 @@ public class MyTabListener<T extends Fragment> implements
 
 	@Override
 	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
+		
 		if (mFragment != null) {
 			ft.detach(mFragment);
 		}
