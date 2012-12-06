@@ -10,11 +10,12 @@ import android.view.MenuItem
 
 class Main extends Activity {
 	
-	val actionBar: ActionBar = getActionBar();
+	var actionBar: ActionBar = _
 
 	override def onCreate(savedInstanceState: Bundle) : Unit = {
 		super.onCreate(savedInstanceState);
 
+		actionBar = getActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		
 		var tab: Tab = actionBar.newTab().setText("Venda").setTabListener(new MyTabListener[SaleFragment](this, "venda", classOf[SaleFragment]));
